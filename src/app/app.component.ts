@@ -1,10 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef, OnInit } from '@angular/core';
+import { BrowserModule} from '@angular/platform-browser';
+import { NgModule } from '@angular/core'
+import { FormsModule } from '@angular/forms'
+
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: 'app.component.html',
+  styleUrls: ['app.component.css']
 })
+
+
+
+
 export class AppComponent {
-  title = 'twenty-nine-card-game';
+  title = '2H';
+
+
+
 }

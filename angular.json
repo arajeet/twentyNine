@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "twenty-nine-card-game"
+    }
+  },
+  "defaultProject": "twenty-nine-card-game",
+  "cli": {
+    "analytics": "fccc57bc-7454-4b72-9dc2-dbe2b65d0129"
+  }
 }
